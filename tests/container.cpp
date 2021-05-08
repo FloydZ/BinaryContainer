@@ -7,7 +7,7 @@
 #define private public
 
 #include "binary_container.h"
-#include "example.h"
+#include "test.h"
 
 using ::testing::EmptyTestEventListener;
 using ::testing::InitGoogleTest;

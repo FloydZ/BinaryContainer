@@ -8,7 +8,7 @@
 // Hack for testing private functions (C++ god)
 #define private public
 
-#include "example.h"
+#include "test.h"
 
 using ::testing::EmptyTestEventListener;
 using ::testing::InitGoogleTest;
