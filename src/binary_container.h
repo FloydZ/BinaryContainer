@@ -4,6 +4,8 @@
 #include <cstdint>      // needed for 'uint64_t'
 #include <cstddef>      // needed for 'size_t'
 #include <array>
+#include <vector>
+
 #include <iostream>
 
 #include "random.h"
