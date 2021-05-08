@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/duda/Downloads/programming/binary_row/build",
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/binary_row_test.dir/test.cpp.o -c /home/duda/Downloads/programming/binary_row/test.cpp",
+  "file": "/home/duda/Downloads/programming/binary_row/test.cpp"
+},
+{
+  "directory": "/home/duda/Downloads/programming/binary_row/build",
+  "command": "/usr/bin/c++   -std=gnu++2a -o CMakeFiles/binary_row_library.dir/binary_row.cpp.o -c /home/duda/Downloads/programming/binary_row/binary_row.cpp",
+  "file": "/home/duda/Downloads/programming/binary_row/binary_row.cpp"
+}
+]
