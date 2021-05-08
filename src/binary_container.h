@@ -73,9 +73,9 @@ else if(limb1 op2 limb2)                                \
 	return 0;
 
 #define BINARYCONTAINER_COMPARE_MASKED(limb1, limb2, mask, op1, op2)\
-if ((limb1&mask) op1 (limb2&mask))                                  \
+if (( (limb1) & (mask) ) op1 ( (limb2) & (mask) ))                  \
 	return 1;                                                       \
-else if((limb1&mask) op2 (limb2&mask))                              \
+else if(( (limb1) & (mask) ) op2 ( (limb2) & (mask) ))              \
 	return 0;                                                       \
 
 

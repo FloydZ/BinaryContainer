@@ -146,8 +146,9 @@ TEST(Zero, Simple) {
 TEST(Zero, Zero_with_Limits) {
 	BinaryContainer<> b;
 
-	for (int k_lower = 1; k_lower < b.size(); ++k_lower) {
-		for (int k_upper = k_lower+1; k_upper < b.size(); ++k_upper) {
+	const int step = 100;
+	for (int k_lower = 1; k_lower < b.size(); k_lower += step) {
+		for (int k_upper = k_lower+1; k_upper < b.size(); k_upper += step) {
 			b.one();
 			b.zero(k_lower, k_upper);
 
@@ -165,8 +166,8 @@ TEST(Zero, Zero_with_Limits) {
 		}
 	}
 
-	for (int k_lower = 1; k_lower < b.size(); ++k_lower) {
-		for (int k_upper = k_lower+1; k_upper < b.size(); ++k_upper) {
+	for (int k_lower = 1; k_lower < b.size(); k_lower += step) {
+		for (int k_upper = k_lower+1; k_upper < b.size(); k_upper += step) {
 			b.zero();
 			b.zero(k_lower, k_upper);
 
