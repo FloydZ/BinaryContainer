@@ -15,13 +15,12 @@ Flags
 ----
 The following compiler flags are supported:
 ```bash
-USE_BRANCH_PREDICTION
-USE_PREFETCH
-USE_LOOP_UNROLL
-BINARY_CONTAINER_ALIGNMENT
+    USE_BRANCH_PREDICTION
+    USE_PREFETCH
+    USE_LOOP_UNROLL
+    BINARY_CONTAINER_ALIGNMENT
 ```
-
-Additionally if you include [M4RI](https://bitbucket.org/malb/m4ri) (alternatively you can define `M4RI_M4RI_H` ) before add this project supporting functions to convert vectors from or to M4RI.
+Additionally if [M4RI](https://bitbucket.org/malb/m4ri) (alternatively you can define `M4RI_M4RI_H`) is included, supporting functions to convert vectors from/to M4RI getting available.
 
 TODO
 ----
